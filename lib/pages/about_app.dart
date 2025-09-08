@@ -134,7 +134,7 @@ class AboutAppPage extends StatelessWidget {
 
                   SizedBox(height: 30),
 
-                  // Contact Info
+
                   Container(
                     padding: EdgeInsets.all(20),
                     decoration: BoxDecoration(

@@ -142,7 +142,8 @@ class OnboardingPage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // Image placeholder with beautiful design
+
+
           Container(
             width: 200,
             height: 200,

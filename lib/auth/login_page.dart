@@ -78,7 +78,7 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Logo/Header Section
+
                 Container(
                   width: 120,
                   height: 120,
@@ -113,7 +113,8 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 SizedBox(height: 40),
 
-                // Form Section
+
+
                 Form(
                   key: _formKey,
                   child: Column(
@@ -172,7 +173,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 SizedBox(height: 24),
 
-                // Error Message
+
                 if (_errorMessage != null)
                   Container(
                     padding: EdgeInsets.all(12),
@@ -197,7 +198,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 SizedBox(height: 24),
 
-                // Login Button
+
                 SizedBox(
                   width: double.infinity,
                   height: 55,
@@ -232,7 +233,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 SizedBox(height: 20),
 
-                // Divider
+
                 Row(
                   children: [
                     Expanded(child: Divider(color: Colors.grey[300])),
@@ -246,7 +247,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 SizedBox(height: 20),
 
-                // Register Link
+
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

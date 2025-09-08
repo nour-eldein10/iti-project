@@ -14,7 +14,7 @@ class FirebaseAuthService {
       );
       return userCredential.user;
     } on FirebaseAuthException catch (e) {
-      // Handle specific Firebase auth errors
+
       throw _handleFirebaseAuthException(e);
     } catch (e) {
       throw 'An unexpected error occurred. Please try again.';

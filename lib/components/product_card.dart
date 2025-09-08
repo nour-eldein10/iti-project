@@ -38,9 +38,9 @@ class ProductCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Product Image - Fixed to show full image
+
             Container(
-              height: 100, // Smaller height for better proportion
+              height: 100,
               width: double.infinity,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(
@@ -49,12 +49,13 @@ class ProductCard extends StatelessWidget {
                 ),
                 image: DecorationImage(
                   image: NetworkImage(product.thumbnail),
-                  fit: BoxFit.contain, // Changed to contain to show full image
+                  fit: BoxFit.contain,
                 ),
               ),
             ),
 
-            // Product Details
+
+
             Padding(
               padding: const EdgeInsets.all(10),
               child: Column(

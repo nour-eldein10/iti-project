@@ -86,7 +86,7 @@ class MyApp extends StatelessWidget {
         ),
         fontFamily: 'Poppins',
       ),
-      home: AboutAppPage(),
+      home: OnboardingScreen(),
       routes: {
         '/onboarding': (context) => OnboardingScreen(),
         '/login': (context) => LoginPage(),

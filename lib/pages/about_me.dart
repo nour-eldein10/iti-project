@@ -67,7 +67,7 @@ class AboutMePage extends StatelessWidget {
 
             SizedBox(height: 30),
 
-            // Developer Information
+
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 25),
               child: Column(

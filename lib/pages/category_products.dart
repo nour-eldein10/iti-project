@@ -83,7 +83,7 @@ class _CategoryProductsPageState extends State<CategoryProductsPage> {
           crossAxisCount: 2,
           crossAxisSpacing: 12,
           mainAxisSpacing: 12,
-          childAspectRatio: 0.7, // Adjusted for smaller cards
+          childAspectRatio: 0.7,
         ),
         itemCount: _products.length,
         itemBuilder: (context, index) {
