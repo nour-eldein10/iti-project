@@ -38,14 +38,14 @@ class AboutMePage extends StatelessWidget {
                         shape: BoxShape.circle,
                         border: Border.all(color: Colors.white, width: 3),
                         image: DecorationImage(
-                          image: AssetImage('assets/developer.png'),
+                          image: AssetImage('1.png'),
                           fit: BoxFit.cover,
                         ),
                       ),
                     ),
                     SizedBox(height: 15),
                     Text(
-                      'Ahmed Developer',
+                      'Nour Eldein ',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 24,

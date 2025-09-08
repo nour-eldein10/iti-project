@@ -38,7 +38,7 @@ class AboutAppPage extends StatelessWidget {
                         color: Colors.white,
                         shape: BoxShape.circle,
                         image: DecorationImage(
-                          image: AssetImage('assets/app_logo.png'),
+                          image: AssetImage('assets/2.jpg'),
                           fit: BoxFit.cover,
                         ),
                       ),

@@ -76,7 +76,7 @@ class ProductDetailsPage extends StatelessWidget {
 
                   SizedBox(height: 20),
 
-                  // Price and Discount
+
                   Row(
                     children: [
                       Text(

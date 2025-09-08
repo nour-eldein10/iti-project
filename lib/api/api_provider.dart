@@ -45,7 +45,7 @@ class ApiProvider {
       return categories;
     } catch (error) {
       print('Categories API error: $error');
-      return ['All', 'smartphones', 'laptops', 'fragrances', 'skincare', 'groceries', 'home-decoration'];
+      return ['All',  'fragrances', 'skincare', 'Perfumes', 'others'];
     }
   }
 
